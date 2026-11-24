@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build]
+  base = "kts-react"
+  command = "npm run build"
+  publish = "kts-react/dist"
