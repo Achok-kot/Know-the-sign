@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 
+
 export default function PageHeader({ title, back }) {
   const navigate = useNavigate()
   const { t } = useApp()
@@ -12,3 +13,4 @@ export default function PageHeader({ title, back }) {
     </div>
   )
 }
+
