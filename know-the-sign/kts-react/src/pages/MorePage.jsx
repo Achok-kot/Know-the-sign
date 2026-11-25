@@ -3,6 +3,7 @@ import { useApp } from '../context/AppContext'
 import PageHeader from '../components/PageHeader'
 import BottomNav from '../components/BottomNav'
 
+
 export default function MorePage() {
   const { t } = useApp()
   const navigate = useNavigate()
@@ -30,3 +31,4 @@ export default function MorePage() {
     </div>
   )
 }
+
