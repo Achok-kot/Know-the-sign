@@ -2,7 +2,7 @@
 
 A multilingual offline-first Progressive Web App (PWA) that helps adolescent girls in South Sudan identify menstrual danger signs and find the nearest health facility.
 
-**Live app:** [https://know-the-sign.netlify.app](https://know-the-sign.netlify.app)
+**Live app:** [https://Achok-kot.github.io/Know-the-sign/](https://Achok-kot.github.io/Know-the-sign/)
 
 ---
 
@@ -106,25 +106,16 @@ npm run preview
 
 ---
 
-## Deploy to Netlify (Free)
+## Deploy to GitHub Pages
 
-### Option A — Drag and drop (quickest)
-
-1. Run `npm run build`
-2. Go to [https://app.netlify.com/drop](https://app.netlify.com/drop)
-3. Drag the `kts-react/dist/` folder onto the page
-4. Netlify gives you a public URL instantly
-
-### Option B — Connect GitHub (recommended)
-
-1. Push this repo to GitHub
-2. Go to [https://netlify.com](https://netlify.com) and click **Add new site → Import from Git**
-3. Select your repository
-4. Set these build settings:
-   - **Base directory:** `kts-react`
-   - **Build command:** `npm run build`
-   - **Publish directory:** `kts-react/dist`
-5. Click **Deploy site**
+1. Build and deploy:
+```bash
+npm run build
+npm run deploy
+```
+2. Go to your repo on GitHub → **Settings → Pages**
+3. Set branch to **gh-pages** and folder to **/ (root)**
+4. Click **Save** — live in 1-2 minutes at `https://Achok-kot.github.io/Know-the-sign/`
 
 ---
 
