@@ -1,4 +1,4 @@
-# Know the Sign 🩸
+# Know the Sign 
 
 A multilingual offline-first Progressive Web App (PWA) that helps adolescent girls in South Sudan identify menstrual danger signs and find the nearest health facility.
 
