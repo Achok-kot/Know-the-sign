@@ -8,6 +8,7 @@ export const QUESTIONS = [
   { id:'q7', weight:'yellow', en:"Are you bleeding between your periods?",                                 ar:"هل تنزفين بين الدورتين؟",                       jub:"Dam bi-iji bein shahar wa shahar?" },
 ]
 
+
 export function triage(answers) {
   let level = 'g'
   const dangerSigns = []
@@ -20,6 +21,7 @@ export function triage(answers) {
   })
   return { level, dangerSigns }
 }
+
 
 export const FACILITIES = {
   'Central Equatoria': [
@@ -39,6 +41,7 @@ export const FACILITIES = {
     { name:'Nyal Primary Hospital',    contact:'+211 920 000 040' },
   ],
 }
+
 
 export const COUNTIES = Object.keys(FACILITIES)
 
