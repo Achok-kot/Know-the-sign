@@ -66,6 +66,15 @@ export const TX = {
     tut:['Answer each question with Yes or No.','Tap Listen to hear the question read aloud.','Green, yellow or red tells you what to do next.'],
     go:'Got it', next:'Next', seeResult:'See result', bk:'← Back',
     chw:'CHW Dashboard', nodata:'No community data yet.', saveerr:'Could not save. Try again.', call:'Call',
+    mh_t:'About Menstruation',
+    mh:[
+      'Menstruation is a normal, healthy part of growing up.',
+      'A period usually lasts 3 to 7 days.',
+      'The cycle repeats every 21 to 45 days.',
+      'Some cramping and tiredness is normal.',
+      'Every girl\'s body is different — that is okay.',
+    ],
+    trusted:'If you are worried about your health, talk to a trusted adult — a mother, aunt, teacher or health worker.',
   },
   ar: {
     dir:'rtl', title:'اعرفي العلامة',
@@ -88,6 +97,15 @@ export const TX = {
     tut:['أجيبي عن كل سؤال بنعم أو لا.','اضغطي استمعي لسماع السؤال.','الأخضر أو الأصفر أو الأحمر يخبرك بما تفعلين.'],
     go:'فهمت', next:'التالي', seeResult:'اعرضي النتيجة', bk:'رجوع →',
     chw:'لوحة العاملين', nodata:'لا توجد بيانات.', saveerr:'تعذر الحفظ.', call:'اتصال',
+    mh_t:'عن الدورة الشهرية',
+    mh:[
+      'الدورة الشهرية جزء طبيعي وصحي من النمو.',
+      'تستمر الدورة عادةً من 3 إلى 7 أيام.',
+      'تتكرر الدورة كل 21 إلى 45 يوماً.',
+      'بعض التقلصات والتعب أمر طبيعي.',
+      'جسم كل فتاة مختلف — وهذا طبيعي.',
+    ],
+    trusted:'إذا كنتِ قلقة على صحتك، تحدثي مع شخص بالغ تثقين به — أم أو عمة أو معلمة أو عاملة صحية.',
   },
   jub: {
     dir:'ltr', title:'Arif Alama',
@@ -110,5 +128,14 @@ export const TX = {
     tut:['Jawib kul sual bi-Eh wala La.','Dug Asma ta tasma sual.','Akhdar wala asfar wala ahmar bi-gul shu ta\'mili.'],
     go:'Fahimt', next:'Tali', seeResult:'Wari natija', bk:'← Rujua',
     chw:'Dashboard ta amil sihha', nodata:'Ma fi data.', saveerr:'Ma gidirt ahfaz.', call:'Itasil',
+    mh_t:'An Dam ta Shahar',
+    mh:[
+      'Dam ta shahar adi wa sihha kwayis fi numu.',
+      'Dam bi-gum 3 le 7 yom adi.',
+      'Bi-rija kulu 21 le 45 yom.',
+      'Shuwaya waja wa ta\'ab adi.',
+      'Jism ta kul bint mukhtalif — da kwayis.',
+    ],
+    trusted:'Lau ita khayfa ala sihha ta ita, kalim nas kibar ta ita — um, khaltu, mudarisa wala amil sihha.',
   }
 }
