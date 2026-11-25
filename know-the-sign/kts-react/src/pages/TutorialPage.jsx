@@ -12,6 +12,7 @@ export default function TutorialPage() {
     navigate('/home')
   }
 
+  
   return (
     <div className="min-h-screen bg-[#fff0f5] flex flex-col items-center justify-center p-6">
       <div className="bg-white rounded-2xl shadow p-8 max-w-sm w-full text-center mb-6">
@@ -33,3 +34,4 @@ export default function TutorialPage() {
     </div>
   )
 }
+
