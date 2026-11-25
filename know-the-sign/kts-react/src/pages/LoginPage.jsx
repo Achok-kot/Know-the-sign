@@ -29,7 +29,7 @@ export default function LoginPage() {
       <PageHeader title="Health Worker Login" back="/more" />
       <div className="max-w-sm mx-auto p-6">
         <div className="bg-white rounded-2xl shadow p-6">
-          <p className="text-[#a0527a] text-sm mb-5">Sign in with your CHW account to access the dashboard.</p>
+          <p className="text-[#a0527a] text-sm mb-5">Sign in using your CHW account to access the dashboard.</p>
           <form onSubmit={handleLogin} className="flex flex-col gap-4">
             <input type="email" placeholder="Email address" value={email} onChange={e => setEmail(e.target.value)} required
               className="border-2 border-[#f9c0d8] rounded-xl px-4 py-3 text-base outline-none focus:border-[#FF69B4]" />
