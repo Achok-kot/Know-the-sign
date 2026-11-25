@@ -4,6 +4,7 @@ export default function BottomNav() {
   const navigate = useNavigate()
   const { pathname } = useLocation()
 
+  
   const tabs = [
     { path:'/home',      label:'Home',    icon:<path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H5a1 1 0 01-1-1V9.5z"/>, icon2:<path d="M9 21V12h6v9"/> },
     { path:'/checklist', label:'Check',   icon:<><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></> },
