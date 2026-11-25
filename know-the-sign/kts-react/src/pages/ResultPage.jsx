@@ -79,6 +79,13 @@ export default function ResultPage() {
           className="w-full py-4 rounded-2xl bg-[#FF69B4] text-white font-bold text-lg shadow mb-3">
           {t.restart}
         </button>
+
+        {/* FR 5.2 — Talk to a trusted adult */}
+        <div className="bg-white border-2 border-[#f9c0d8] rounded-2xl p-4 mb-3 shadow text-center">
+          <i className="fa-solid fa-hands-holding-heart text-[#FF69B4] text-2xl mb-2 block"></i>
+          <p className="text-sm text-[#3d0020] font-semibold">{t.trusted}</p>
+        </div>
+
         <button onClick={() => navigate('/home')}
           className="w-full py-3 rounded-2xl border-2 border-[#FF69B4] text-[#FF69B4] font-bold">
           {t.home}
