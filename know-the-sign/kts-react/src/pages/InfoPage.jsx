@@ -8,7 +8,7 @@ export default function InfoPage() {
       <PageHeader title={t.info} back="/more" />
       <div className="max-w-lg mx-auto p-4">
 
-        {/* FR 1.1 — General menstrual health info */}
+        {/* FR 1.1 — a General menstrual health info */}
         <div className="bg-white border-2 border-[#f9c0d8] rounded-2xl p-4 mb-4 shadow">
           <h3 className="font-bold text-[#FF69B4] mb-2 flex items-center gap-2">
             <i className="fa-solid fa-heart-pulse text-[#FF69B4]"></i>
