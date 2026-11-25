@@ -14,6 +14,7 @@ import PrivacyPage   from './pages/PrivacyPage'
 import LoginPage     from './pages/LoginPage'
 import CHWPage       from './pages/CHWPage'
 
+
 Amplify.configure(awsConfig)
 
 export default function App() {
