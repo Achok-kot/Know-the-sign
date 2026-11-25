@@ -34,7 +34,7 @@ export default function CHWPage() {
 
   return (
     <div className="min-h-screen bg-[#fff0f5] pb-6">
-      <PageHeader title={'👩⚕️ ' + t.chw} back="/more" />
+      <PageHeader title={'⚕️ ' + t.chw} back="/more" />
       <div className="max-w-lg mx-auto p-4">
 
         {/* User + logout */}
