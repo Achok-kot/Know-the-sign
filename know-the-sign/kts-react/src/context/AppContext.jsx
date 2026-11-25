@@ -3,6 +3,7 @@ import { TX } from '../data'
 
 const AppContext = createContext()
 
+
 export function AppProvider({ children }) {
   const [lang, setLang] = useState('en')
   const [answers, setAnswers] = useState({})
@@ -17,6 +18,7 @@ export function AppProvider({ children }) {
     </AppContext.Provider>
   )
 }
+
 
 export function useApp() {
   return useContext(AppContext)
