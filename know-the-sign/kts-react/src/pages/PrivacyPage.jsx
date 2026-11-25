@@ -1,6 +1,7 @@
 import { useApp } from '../context/AppContext'
 import PageHeader from '../components/PageHeader'
 
+
 export default function PrivacyPage() {
   const { t } = useApp()
   return (
@@ -16,3 +17,4 @@ export default function PrivacyPage() {
     </div>
   )
 }
+
