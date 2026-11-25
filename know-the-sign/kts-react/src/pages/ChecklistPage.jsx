@@ -4,6 +4,7 @@ import { useApp } from '../context/AppContext'
 import { QUESTIONS, triage } from '../data'
 import PageHeader from '../components/PageHeader'
 
+
 export default function ChecklistPage() {
   const { t, lang, answers, setAnswers, setResult } = useApp()
   const [qIndex, setQIndex] = useState(0)
